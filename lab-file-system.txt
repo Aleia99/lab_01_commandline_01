@@ -210,20 +210,20 @@ mkdir -p
 
 
 ==========
-19. Make another directory called aardvark.  
+19. Make another directory called aardvark.
 
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.
 
 What is the modified date of the aardvark directory?
 ----------
-
-
+aardvark	foo		food		pineapple
+drwxr-xr-x   2 student  staff    68 Feb 10 16:52 aardvark
 
 ==========
 21. Make 3 directories nested within each other:
@@ -235,14 +235,14 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
 ----------
-
+?
 
 
 ==========
@@ -251,43 +251,44 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd ../..
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rm
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 28. What's a pathname?
 ----------
-
+string with slashes
 
 
 ==========
 29. What's a directory?
 ----------
 
-
+stores file names
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/

@@ -1,10 +1,10 @@
 
 Lab - Navigating the File System
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
@@ -32,6 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
+/Users/student/mtech1002
 
 
 ==========
@@ -43,6 +44,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals
 
 
 ==========
@@ -55,7 +57,7 @@ Copy and paste the output below.
 ----------
 
 
-
+animals	food
 ==========
 7. Type:
 
@@ -64,7 +66,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +77,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtech1002/foo/bar/baz/qux
 
 
 ==========
@@ -87,7 +89,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtech1002/foo/bar
 
 ==========
 10. Type:
@@ -98,8 +100,8 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/Users/student/mtech1002/foo/bar/baz/qux
 
- 
 ==========
 11. Type:
 
@@ -108,7 +110,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtech1002
 
 
 ==========
@@ -121,7 +123,8 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
+total 0
+drwxr-xr-x  3 student  staff  102 Feb 10 16:29 foo
 
 ==========
 13. Type:
@@ -132,7 +135,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student
 
 ==========
 14. Type:
@@ -142,7 +145,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/volumes
 
 
 ==========
@@ -154,7 +157,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/volumes
 
 ==========
 15. Type:
@@ -165,7 +168,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/mtech1002
 
 ==========
 16. Type:
@@ -175,12 +178,12 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+v314-ent-015.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd
 
 
 ==========
@@ -203,7 +206,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p
 
 
 ==========
@@ -215,7 +218,7 @@ Write the command you used to create the directory below:
 
 
 ==========
-20. List the files and directories in the current directory using the long format.  
+20. List the files and directories in the current directory using the long format.
 
 What is the modified date of the aardvark directory?
 ----------
